@@ -2,14 +2,16 @@ body {
   background: lightgray;
   font-family: sans-serif;
 }
-
+h1{
+    text-align: center;
+}
 body,
 ul,
 li {
   margin: 0;
 }
 header {
-  background: midnightblue;
+  background: black;
   color: white;
 }
 nav ul.menu {
@@ -30,6 +32,7 @@ section#about {
   grid-column: 3/7;
   border: 1px solid grey;
   padding: 1em;
+  background-color: white;
 }
 section#profile {
   grid-row: 1/7;
@@ -37,9 +40,13 @@ section#profile {
   background-color: black;
   color: white;
   text-align: center;
-  border: 1px solid red;
   padding: 1em;
 }
+
+#photo{
+width: 30%;
+}
+
 button {
   background: midnightblue;
   color: white;
