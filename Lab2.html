@@ -9,26 +9,73 @@
   <body>
     <header>
       <nav>
-        <ul class="menu" id="header-nav">
-          <li>References</li>
-          <li>Certifications</li>
+        <ul class="menu">
+          <li id="references">
+            References
+            <ul class="dropdown">
+              <li>Ref 1</li>
+              <li>Ref 2</li>
+              <li>Ref 3</li>
+            </ul>
+          </li>
+          <li id="certifications">
+            Certifications
+            <ul class="dropdown">
+              <li>Cert 1</li>
+              <li>Cert 2</li>
+              <li>Cert 3</li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
     <main class="content">
       <section id="about">
         <h1>Resume</h1>
+        <hr />
+        <h2>About</h2>
+        <p>
+          Highly skilled and adaptable web developer with a passion for crafting
+          innovative digital solutions. Proficient in a variety of programming
+          languages including HTML, CSS, JavaScript, and Python, with a keen eye
+          for design and usability. Experienced in both front-end and back-end
+          development, adept at creating responsive and dynamic websites and web
+          applications. Strong problem-solving abilities coupled with a
+          collaborative mindset, able to communicate effectively with
+          cross-functional teams to deliver high-quality projects within
+          deadlines. Continuously staying updated with emerging technologies and
+          best practices to drive excellence in web development projects.
+        </p>
+        <hr />
+        <h2>Education</h2>
         <ul>
-          <li>About</li>
-          <li>Education</li>
-          <li>Experience</li>
+          <li>Gudger College - Class of 89</li>
+          <li>Springfield High</li>
+          <li>Springfield Elementary</li>
+        </ul>
+        <hr />
+        <h2>Experience</h2>
+        <ul>
+          <li>Front-end Web Developer at TechX Solutions (2018-2020)</li>
+          <li>Full-stack Developer at Digital Innovations Inc. (2020-2022)</li>
+          <li>Web Application Developer at Creative WebWorks (2022-present)</li>
         </ul>
       </section>
       <section id="profile">
-        <h1>Benjamin French</h1>
-        <img src="cvImage.png" id="photo">
+        <h1>Benjamin French - Resume</h1>
+        <img src="cvImage.png" id="photo" />
+        <div class="container">
+          <h1>Developer Profile</h1>
+          <div class="info">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Ben French</p>
+            <p><strong>Email:</strong> Benfrench@example.com</p>
+            <p><strong>Location:</strong> Perth, Australia</p>
+            <p><strong>Phone:</strong> +1234567890</p>
+          </div>
+        </div>
       </section>
     </main>
-    <script src="index.js"></script>
+    <!-- <script src="Resume.js"></script> -->
   </body>
 </html>
